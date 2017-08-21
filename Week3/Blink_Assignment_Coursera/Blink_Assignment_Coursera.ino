@@ -15,14 +15,14 @@ void loop() {
 //Blink LED 5 times, once every half second  
   for(int x=0;x<5;x++){
     digitalWrite(LED_BUILTIN, HIGH);   
-    delay(500);                       
+    delay(250);                       
     digitalWrite(LED_BUILTIN, LOW);   
-    delay(500);                      
+    delay(250);                      
   }
 //Blink LED 5 times, once every two seconds
   for(int y=0;y<5;y++){
     digitalWrite(LED_BUILTIN, HIGH);   
-    delay(2000);                       
+    delay(1000);                       
     digitalWrite(LED_BUILTIN, LOW);    
-    delay(2000);                         }
+    delay(1000);                         }
 }
